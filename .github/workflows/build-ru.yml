@@ -7,18 +7,19 @@ on:
 
 jobs:
   build:
-    runs-on: macos-15
+    runs-on: macos-26
     steps:
       - uses: actions/checkout@v4
 
       - name: Select Xcode
         run: |
           ls /Applications | grep -i xcode
-          sudo xcode-select -s "$(ls -d /Applications/Xcode_16*.app | sort -V | tail -1)"
+          sudo xcode-select -s "$(ls -d /Applications/Xcode_*.app | sort -V | tail -1)"
           xcodebuild -version
 
       - name: Build
         run: |
+          set -o pipefail
           xcodebuild \
             -project MacsyZones.xcodeproj \
             -scheme MacsyZones \
@@ -30,8 +31,9 @@ jobs:
             PROVISIONING_PROFILE_SPECIFIER="" \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
-            build | tee xcodebuild.log | grep -E 'error|warning: .*xcstrings|BUILD' || true
-          test -d build/Build/Products/Release/MacsyZones.app
+            MACOSX_DEPLOYMENT_TARGET=15.0 \
+            build | tee xcodebuild.log | grep -E 'error:|warning: .*xcstrings|BUILD'
+          test -x build/Build/Products/Release/MacsyZones.app/Contents/MacOS/MacsyZones
 
       - name: Verify Russian strings are bundled
         run: |
