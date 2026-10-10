@@ -236,8 +236,8 @@ class GitHubUpdater {
                 alert.window.level = .floating
                 alert.alertStyle = .informational
                 alert.messageText = "MacsyZones"
-                alert.informativeText = "An update will now start. The app will restart automatically."
-                alert.addButton(withTitle: "OK")
+                alert.informativeText = String(localized: "An update will now start. The app will restart automatically.")
+                alert.addButton(withTitle: String(localized: "OK"))
                 
                 alert.window.makeKeyAndOrderFront(nil)
                 NSApplication.shared.activate(ignoringOtherApps: true)

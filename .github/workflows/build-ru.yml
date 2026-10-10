@@ -1,0 +1,60 @@
+name: Build (ad-hoc signed)
+
+on:
+  push:
+    branches: [russian-localization]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          ls /Applications | grep -i xcode
+          sudo xcode-select -s "$(ls -d /Applications/Xcode_16*.app | sort -V | tail -1)"
+          xcodebuild -version
+
+      - name: Build
+        run: |
+          xcodebuild \
+            -project MacsyZones.xcodeproj \
+            -scheme MacsyZones \
+            -configuration Release \
+            -derivedDataPath build \
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY="-" \
+            DEVELOPMENT_TEAM="" \
+            PROVISIONING_PROFILE_SPECIFIER="" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            build | tee xcodebuild.log | grep -E 'error|warning: .*xcstrings|BUILD' || true
+          test -d build/Build/Products/Release/MacsyZones.app
+
+      - name: Verify Russian strings are bundled
+        run: |
+          ls build/Build/Products/Release/MacsyZones.app/Contents/Resources/
+          test -f build/Build/Products/Release/MacsyZones.app/Contents/Resources/ru.lproj/Localizable.strings
+          plutil -p build/Build/Products/Release/MacsyZones.app/Contents/Resources/ru.lproj/Localizable.strings | head -20
+
+      - name: Ad-hoc sign and zip
+        run: |
+          cd build/Build/Products/Release
+          codesign --force --deep --sign - MacsyZones.app
+          codesign --verify --verbose MacsyZones.app
+          ditto -c -k --keepParent MacsyZones.app MacsyZones.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MacsyZones-ru
+          path: build/Build/Products/Release/MacsyZones.zip
+          if-no-files-found: error
+
+      - name: Upload build log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcodebuild-log
+          path: xcodebuild.log

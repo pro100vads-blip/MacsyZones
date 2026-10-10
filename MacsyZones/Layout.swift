@@ -105,22 +105,22 @@ enum PositioningPreset: Hashable {
     
     var tooltip: String {
         switch self {
-        case .leftHalf: return "Left Half"
-        case .rightHalf: return "Right Half"
-        case .topHalf: return "Top Half"
-        case .bottomHalf: return "Bottom Half"
-        case .topLeft: return "Top Left Quarter"
-        case .topRight: return "Top Right Quarter"
-        case .bottomLeft: return "Bottom Left Quarter"
-        case .bottomRight: return "Bottom Right Quarter"
-        case .leftThird: return "Left Third"
-        case .centerThirdVertical: return "Center Third (Vertical)"
-        case .rightThird: return "Right Third"
-        case .topThird: return "Top Third"
-        case .centerThirdHorizontal: return "Center Third (Horizontal)"
-        case .bottomThird: return "Bottom Third"
-        case .center: return "Center"
-        case .fullScreen: return "Full Screen"
+        case .leftHalf: return String(localized: "Left Half")
+        case .rightHalf: return String(localized: "Right Half")
+        case .topHalf: return String(localized: "Top Half")
+        case .bottomHalf: return String(localized: "Bottom Half")
+        case .topLeft: return String(localized: "Top Left Quarter")
+        case .topRight: return String(localized: "Top Right Quarter")
+        case .bottomLeft: return String(localized: "Bottom Left Quarter")
+        case .bottomRight: return String(localized: "Bottom Right Quarter")
+        case .leftThird: return String(localized: "Left Third")
+        case .centerThirdVertical: return String(localized: "Center Third (Vertical)")
+        case .rightThird: return String(localized: "Right Third")
+        case .topThird: return String(localized: "Top Third")
+        case .centerThirdHorizontal: return String(localized: "Center Third (Horizontal)")
+        case .bottomThird: return String(localized: "Bottom Third")
+        case .center: return String(localized: "Center")
+        case .fullScreen: return String(localized: "Full Screen")
         }
     }
     

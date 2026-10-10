@@ -99,38 +99,38 @@ struct OnboardingView: View {
     
     private let pages: [OnboardingPage] = [
         OnboardingPage(
-            title: "Welcome to MacsyZones",
-            description: "**MacsyZones** is your ultimate window management companion for macOS.\n\nOrganize your workspace efficiently with **powerful snap zones**, boost your productivity with **keyboard shortcuts**, and customize layouts to match your workflow.\n\nMacsyZones has unique features that makes lives better. I'm always working to make it better. You can **buy MacsyZones** to support me. Also you can **donate** to me any amount you want.\n\nVisit [macsyzones.com](https://macsyzones.com) to buy and see how you can support me. 🥳\n\nLet's get started! 🚀",
+            title: String(localized: "Welcome to MacsyZones"),
+            description: String(localized: "**MacsyZones** is your ultimate window management companion for macOS.\n\nOrganize your workspace efficiently with **powerful snap zones**, boost your productivity with **keyboard shortcuts**, and customize layouts to match your workflow.\n\nMacsyZones has unique features that makes lives better. I'm always working to make it better. You can **buy MacsyZones** to support me. Also you can **donate** to me any amount you want.\n\nVisit [macsyzones.com](https://macsyzones.com) to buy and see how you can support me. 🥳\n\nLet's get started! 🚀"),
             video: "MacsyZones Onboarding Welcome",
             icon: NSImage(named: "MenuBarIcon")
         ),
         OnboardingPage(
-            title: "Snapping a Window",
-            description: "Snapping windows to zones is **quick and intuitive**.\n\n**1.** Hold your **Snap Key** (default: **Shift**) while dragging a window\n**2.** Your zones will appear on the screen\n**3.** Move your window over the desired zone\n**4.** Release to snap the window into place\n\n💡 **Tip:** You can also use **Snap with right click** (enabled default) to snap windows without holding the Snap Key.",
+            title: String(localized: "Snapping a Window"),
+            description: String(localized: "Snapping windows to zones is **quick and intuitive**.\n\n**1.** Hold your **Snap Key** (default: **Shift**) while dragging a window\n**2.** Your zones will appear on the screen\n**3.** Move your window over the desired zone\n**4.** Release to snap the window into place\n\n💡 **Tip:** You can also use **Snap with right click** (enabled default) to snap windows without holding the Snap Key."),
             video: "MacsyZones Onboarding Snap",
             icon: NSImage(systemSymbolName: "rectangle.on.rectangle.angled", accessibilityDescription: nil)
         ),
         OnboardingPage(
-            title: "Adding and Designing Layouts",
-            description: "Create **custom layouts** tailored to your needs.\n\n**1.** Click the **pencil icon** in the menu bar to enter edit mode\n**2.** Add zones by clicking the **+ button**\n**3.** Resize and position zones by **dragging their edges**\n**4.** Create new layouts for different workflows\n\n📝 **Note:** MacsyZones remembers your **preferred layout** for each screen and workspace combination. You can select which layout you want to prefer while you are on a screen and workspace.",
+            title: String(localized: "Adding and Designing Layouts"),
+            description: String(localized: "Create **custom layouts** tailored to your needs.\n\n**1.** Click the **pencil icon** in the menu bar to enter edit mode\n**2.** Add zones by clicking the **+ button**\n**3.** Resize and position zones by **dragging their edges**\n**4.** Create new layouts for different workflows\n\n📝 **Note:** MacsyZones remembers your **preferred layout** for each screen and workspace combination. You can select which layout you want to prefer while you are on a screen and workspace."),
             video: "MacsyZones Onboarding Layout Editor",
             icon: NSImage(systemSymbolName: "square.grid.3x3", accessibilityDescription: nil)
         ),
         OnboardingPage(
-            title: "Shake to Snap",
-            description: "A **magical way** to snap windows with motion.\n\n**1.** Grab a window by clicking and holding its **title bar**\n**2.** Shake your mouse or trackpad **rapidly**\n**3.** Zones will appear automatically\n**4.** Move and release to snap\n\n⚡ **Tip:** Adjust **shake sensitivity** in settings to match your preference. This feature is perfect for **trackpad users**!",
+            title: String(localized: "Shake to Snap"),
+            description: String(localized: "A **magical way** to snap windows with motion.\n\n**1.** Grab a window by clicking and holding its **title bar**\n**2.** Shake your mouse or trackpad **rapidly**\n**3.** Zones will appear automatically\n**4.** Move and release to snap\n\n⚡ **Tip:** Adjust **shake sensitivity** in settings to match your preference. This feature is perfect for **trackpad users**!"),
             video: "MacsyZones Onboarding Shake to Snap",
             icon: NSImage(systemSymbolName: "hand.raised.fill", accessibilityDescription: nil)
         ),
         OnboardingPage(
-            title: "Snap Resize",
-            description: "Resize windows **precisely** using zone edges.\n\n**1.** Move your mouse pointer to somewhere center of two zones' edges meet or hold your **Modifier Key** (default: **Control**) for a moment\n**2.** Snap resizers appear between zones\n**3.** Drag a window edge close to a snap resizer\n**4.** The edge snaps to the resizer for **perfect alignment**\n\n✨ **Feature:** Enable **'Show snap resizers on hover'** in settings for instant visibility without holding the Modifier Key.",
+            title: String(localized: "Snap Resize"),
+            description: String(localized: "Resize windows **precisely** using zone edges.\n\n**1.** Move your mouse pointer to somewhere center of two zones' edges meet or hold your **Modifier Key** (default: **Control**) for a moment\n**2.** Snap resizers appear between zones\n**3.** Drag a window edge close to a snap resizer\n**4.** The edge snaps to the resizer for **perfect alignment**\n\n✨ **Feature:** Enable **'Show snap resizers on hover'** in settings for instant visibility without holding the Modifier Key."),
             video: "MacsyZones Onboarding Snap Resize",
             icon: NSImage(systemSymbolName: "arrow.up.left.and.arrow.down.right", accessibilityDescription: nil)
         ),
         OnboardingPage(
-            title: "Quick Snapper",
-            description: "Quick Snapper is a **lightweight window management** tool that lets you snap windows to predefined zones using keyboard shortcuts.\n\n**1.** Use the **Quick Snap Shortcut** (default: **Control+Shift+S**) to toggle Quick Snapper mode\n**2.** Use arrow keys ↑ / ↓ to navigate between zones and ← / → navigate between layouts\n**3.** Press the zone number (1-9) to snap selected window to the zone\n4. Press Delete to **unsnap** selected window\n5. Press Enter to get it done\n\n🚀 **Efficiency:** Quick Snapper is designed for users who prefer **keyboard-centric workflows**, enabling rapid window management without leaving the keyboard. You can use it as snapper, layout switcher and quick window switcher.",
+            title: String(localized: "Quick Snapper"),
+            description: String(localized: "Quick Snapper is a **lightweight window management** tool that lets you snap windows to predefined zones using keyboard shortcuts.\n\n**1.** Use the **Quick Snap Shortcut** (default: **Control+Shift+S**) to toggle Quick Snapper mode\n**2.** Use arrow keys ↑ / ↓ to navigate between zones and ← / → navigate between layouts\n**3.** Press the zone number (1-9) to snap selected window to the zone\n4. Press Delete to **unsnap** selected window\n5. Press Enter to get it done\n\n🚀 **Efficiency:** Quick Snapper is designed for users who prefer **keyboard-centric workflows**, enabling rapid window management without leaving the keyboard. You can use it as snapper, layout switcher and quick window switcher."),
             video: "MacsyZones Onboarding Quick Snapper",
             icon: NSImage(systemSymbolName: "bolt.fill", accessibilityDescription: nil)
         )
@@ -560,7 +560,7 @@ private var onboardingWindow: NSWindow?
 @available(macOS 12.0, *)
 func showOnboarding() {
     let window = NSWindow()
-    window.title = "Welcome to MacsyZones"
+    window.title = String(localized: "Welcome to MacsyZones")
     window.styleMask = [.titled, .closable, .fullSizeContentView]
     window.titlebarAppearsTransparent = true
     window.titleVisibility = .hidden

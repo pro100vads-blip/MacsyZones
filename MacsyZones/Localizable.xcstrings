@@ -1,0 +1,1526 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "\nLicensed for: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\nЛицензия выдана: %@"
+          }
+        }
+      }
+    },
+    "    Copyright ©️ 2024, Oğuzhan Eroğlu (https://meowingcat.io).\n    \n    MacsyZones helps you organize your windows efficiently.\n    \n    Version: %@ (Build: %@)\n\n    %@\n    %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copyright ©️ 2024, Oğuzhan Eroğlu (https://meowingcat.io).\n\nMacsyZones помогает эффективно организовать окна.\n\nВерсия: %@ (сборка: %@)\n\n%@\n\n%@"
+          }
+        }
+      }
+    },
+    "    If you enable this option, MacsyZones will remember your preffered/selected layout for each macOS workspace (virtual desktop) / screen pair.\n\n    Enjoy! 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Если включить этот параметр, MacsyZones будет запоминать выбранный макет для каждой пары «рабочий стол (Spaces) + экран».\n\nПриятной работы! 🥳"
+          }
+        }
+      }
+    },
+    "    Layout Switcher is a feature that allows you to switch and start snapping on a layout while you move a window.\n    \n    Without Snap Key or Right-click to Snap, you can hold your mouse pointer on a layout and leave your window on a zone to snap with ease.\n\n    Enjoy! 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключатель макетов позволяет сменить макет и начать привязку прямо во время перемещения окна.\n\nБез клавиши привязки и правой кнопки мыши: задержите указатель на макете и отпустите окно над зоной, чтобы привязать его.\n\nПриятной работы! 🥳"
+          }
+        }
+      }
+    },
+    "    Modifier key is mainly for performing snap resize but you can also use it to snap your windows to your zones.\n\n    Modifier key has a delay that you can adjust; when you press and hold the modifier key, MacsyZones will start to show you the zones with snap resizers between them.\n\n    You can hold the modifier key and perform snap resizing with your mouse or trackpad.\n    \n    Enjoy! 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиша-модификатор нужна в первую очередь для привязки размера, но с ней можно и привязывать окна к зонам.\n\nУ клавиши-модификатора есть настраиваемая задержка: когда вы зажмёте её, MacsyZones покажет зоны и направляющие привязки между ними.\n\nУдерживая клавишу-модификатор, вы можете подгонять размер окон мышью или трекпадом.\n\nПриятной работы! 🥳"
+          }
+        }
+      }
+    },
+    "    Quick Snap shortcut is for activating the Quick Snapper. \n    \n    Quick Snapper is a feature that allows you to snap your windows to your zones with your keyboard easily and very quickly.\n\n    It is also useful as a window switcher. (Like Windows' Alt+Tab window switcher.)\n    \n    Enjoy! 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Это сочетание клавиш включает быструю привязку (Quick Snapper).\n\nБыстрая привязка позволяет легко и очень быстро привязывать окна к зонам с клавиатуры.\n\nОна также удобна как переключатель окон (как Alt+Tab в Windows).\n\nПриятной работы! 🥳"
+          }
+        }
+      }
+    },
+    "    Snap key is for snapping your windows to your zones.\n\n    You can hold the snap key and drag your windows to the zones.\n\n    Snap key works only while you are moving a window.\n\n    Enjoy! 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиша привязки нужна для привязки окон к зонам.\n\nУдерживайте её и перетаскивайте окна в зоны.\n\nКлавиша привязки работает только во время перемещения окна.\n\nПриятной работы! 🥳"
+          }
+        }
+      }
+    },
+    "    Snap resizing is a feature that allows you to resize your windows to your zones.\n    \n    You can enable or disable snap resizing and adjust the snap threshold.\n\n    Modifier key has a delay that you can adjust; when you press and hold the modifier key, MacsyZones will start to show you the zones with snap resizers between them.\n\n    You can hold the modifier key and perform snap resizing with your mouse or trackpad.\n    \n    Enjoy! 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Привязка размера позволяет подгонять размер окон под зоны.\n\nЕё можно включить или выключить, а также настроить порог привязки.\n\nУ клавиши-модификатора есть настраиваемая задержка: когда вы зажмёте её, MacsyZones покажет зоны и направляющие привязки между ними.\n\nУдерживая клавишу-модификатор, вы можете подгонять размер окон мышью или трекпадом.\n\nПриятной работы! 🥳"
+          }
+        }
+      }
+    },
+    "    While you are moving a window and holding Snap Key, you'll be seeing your zones; this option lets you choose how zones will be highlighted.\n\n    We have two options; Center Proximity and Flat:\n\n    • Center Proximity: The zone that has the closest center circle to mouse pointer will be highlighted.\n    • Flat: The zone visibly most front and under mouse pointer will be highlighted.\n\n    Note: The other option \"Prioritize zone center\" has higher priority.\n\n    Enjoy! 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Когда вы перемещаете окно, удерживая клавишу привязки, на экране видны зоны; этот параметр определяет, как они подсвечиваются.\n\nЕсть два варианта: «Близость к центру» и «Плоский»:\n\n• Близость к центру: подсвечивается зона, центр которой ближе всего к указателю мыши.\n• Плоский: подсвечивается самая верхняя зона под указателем мыши.\n\nПримечание: параметр «Приоритет центру зоны» имеет более высокий приоритет.\n\nПриятной работы! 🥳"
+          }
+        }
+      }
+    },
+    "    Window cycling allows you to quickly switch between multiple windows within the same zone.\n    \n    When you have multiple windows placed in the same zone, you can use the configured shortcuts to cycle through them.\n    \n    • Cycle Forward: Brings the next window in the zone to the front\n    • Cycle Backward: Brings the previous window in the zone to the front\n    \n    The cycling will only affect windows that are currently placed in zones, and will cycle through windows in the same zone as the currently focused window.\n    \n    Enjoy! 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключение окон позволяет быстро переходить между несколькими окнами внутри одной зоны.\n\nЕсли в зоне несколько окон, настроенные сочетания клавиш перебирают их по кругу.\n\n• Следующее окно: выводит на передний план следующее окно в зоне\n• Предыдущее окно: выводит на передний план предыдущее окно в зоне\n\nПереключение затрагивает только окна, размещённые в зонах, и перебирает окна той же зоны, что и активное окно.\n\nПриятной работы! 🥳"
+          }
+        }
+      }
+    },
+    "    You can add, remove, rename layouts and select a layout for your current (screen, workspace) pair.\n\n    MacsyZones will remember the layout you selected for each (screen, workspace) pair.\n\n    Important: Please do NOT place your zones on multiple screens while you are editing a layout. It is an undefined behavior for MacsyZones so far.\n\n    Instead, you can create many layouts for each screen (or workspace) and switch between them easily; MacsyZones will remember the layout you selected for each (screen, workspace) pair.\n\n    Enjoy! 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы можете добавлять, удалять и переименовывать макеты, а также выбирать макет для текущей пары «экран + рабочий стол».\n\nMacsyZones запомнит выбранный макет для каждой такой пары.\n\nВажно: НЕ размещайте зоны на нескольких экранах, пока редактируете макет. Пока что для MacsyZones это неопределённое поведение.\n\nВместо этого создайте отдельные макеты для каждого экрана (или рабочего стола) и легко переключайтесь между ними; MacsyZones запомнит выбор для каждой пары.\n\nПриятной работы! 🥳"
+          }
+        }
+      }
+    },
+    "(Free version)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(Бесплатная версия)"
+          }
+        }
+      }
+    },
+    "**MacsyZones** is your ultimate window management companion for macOS.\n\nOrganize your workspace efficiently with **powerful snap zones**, boost your productivity with **keyboard shortcuts**, and customize layouts to match your workflow.\n\nMacsyZones has unique features that makes lives better. I'm always working to make it better. You can **buy MacsyZones** to support me. Also you can **donate** to me any amount you want.\n\nVisit [macsyzones.com](https://macsyzones.com) to buy and see how you can support me. 🥳\n\nLet's get started! 🚀": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**MacsyZones** — ваш незаменимый помощник для управления окнами в macOS.\n\nОрганизуйте рабочее пространство с помощью **зон привязки**, ускоряйте работу **горячими клавишами** и настраивайте макеты под свой стиль работы.\n\nУ MacsyZones есть уникальные функции, которые делают жизнь лучше. Я постоянно работаю над улучшением приложения. Вы можете **купить MacsyZones**, чтобы поддержать меня, или **пожертвовать** любую сумму.\n\nЗайдите на [macsyzones.com](https://macsyzones.com), чтобы купить приложение и узнать о других способах поддержки. 🥳\n\nНачнём! 🚀"
+          }
+        }
+      }
+    },
+    "A **magical way** to snap windows with motion.\n\n**1.** Grab a window by clicking and holding its **title bar**\n**2.** Shake your mouse or trackpad **rapidly**\n**3.** Zones will appear automatically\n**4.** Move and release to snap\n\n⚡ **Tip:** Adjust **shake sensitivity** in settings to match your preference. This feature is perfect for **trackpad users**!": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**Волшебный способ** привязать окно движением.\n\n**1.** Схватите окно, зажав его **строку заголовка**\n**2.** **Быстро** потрясите мышью или пальцем по трекпаду\n**3.** Зоны появятся автоматически\n**4.** Переместите окно и отпустите, чтобы привязать\n\n⚡ **Совет:** настройте **чувствительность встряхивания** в параметрах. Эта функция особенно удобна для **владельцев трекпада**!"
+          }
+        }
+      }
+    },
+    "A layout can be designed on one screen.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Макет создаётся для одного экрана."
+          }
+        }
+      }
+    },
+    "About MacsyZones": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О MacsyZones"
+          }
+        }
+      }
+    },
+    "Accessibility Permissions Required": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Требуется разрешение Универсального доступа"
+          }
+        }
+      }
+    },
+    "Add Smart Gap": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Умный отступ"
+          }
+        }
+      }
+    },
+    "Adding and Designing Layouts": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создание и настройка макетов"
+          }
+        }
+      }
+    },
+    "After enabling accessibility permissions, restart MacsyZones to continue.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "После выдачи разрешения перезапустите MacsyZones, чтобы продолжить."
+          }
+        }
+      }
+    },
+    "An update will now start. The app will restart automatically.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сейчас начнётся обновление. Приложение перезапустится автоматически."
+          }
+        }
+      }
+    },
+    "Another instance of MacsyZones is already running. This instance will exit.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Другой экземпляр MacsyZones уже запущен. Этот экземпляр будет закрыт."
+          }
+        }
+      }
+    },
+    "Another layout with this name already exists. Please choose another name.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Макет с таким названием уже существует. Выберите другое название."
+          }
+        }
+      }
+    },
+    "Are you sure you want to reset all settings to their default values? This action cannot be undone.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить все настройки к значениям по умолчанию? Это действие нельзя отменить."
+          }
+        }
+      }
+    },
+    "Auto-update was unsuccessful.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автоматическое обновление не удалось."
+          }
+        }
+      }
+    },
+    "Bottom Half": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нижняя половина"
+          }
+        }
+      }
+    },
+    "Bottom Left Quarter": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Левая нижняя четверть"
+          }
+        }
+      }
+    },
+    "Bottom Right Quarter": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Правая нижняя четверть"
+          }
+        }
+      }
+    },
+    "Bottom Third": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нижняя треть"
+          }
+        }
+      }
+    },
+    "Buy Pro License Key": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Купить лицензию Pro"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отмена"
+          }
+        }
+      }
+    },
+    "Center": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По центру"
+          }
+        }
+      }
+    },
+    "Center Proximity": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Близость к центру"
+          }
+        }
+      }
+    },
+    "Center Third (Horizontal)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Средняя треть (по горизонтали)"
+          }
+        }
+      }
+    },
+    "Center Third (Vertical)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Средняя треть (по вертикали)"
+          }
+        }
+      }
+    },
+    "Check for Updates": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверить обновления"
+          }
+        }
+      }
+    },
+    "Checking...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверка…"
+          }
+        }
+      }
+    },
+    "Click to enlarge": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите, чтобы увеличить"
+          }
+        }
+      }
+    },
+    "Click to set shortcut": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите, чтобы задать сочетание"
+          }
+        }
+      }
+    },
+    "Columns: %lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Столбцов: %lld"
+          }
+        }
+      }
+    },
+    "Continue with Current Version": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжить с текущей версией"
+          }
+        }
+      }
+    },
+    "Create": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создать"
+          }
+        }
+      }
+    },
+    "Create **custom layouts** tailored to your needs.\n\n**1.** Click the **pencil icon** in the menu bar to enter edit mode\n**2.** Add zones by clicking the **+ button**\n**3.** Resize and position zones by **dragging their edges**\n**4.** Create new layouts for different workflows\n\n📝 **Note:** MacsyZones remembers your **preferred layout** for each screen and workspace combination. You can select which layout you want to prefer while you are on a screen and workspace.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создавайте **собственные макеты** под свои задачи.\n\n**1.** Нажмите **значок карандаша** в строке меню, чтобы войти в режим редактирования\n**2.** Добавляйте зоны кнопкой **+**\n**3.** Меняйте размер и положение зон, **перетаскивая их края**\n**4.** Создавайте новые макеты для разных сценариев работы\n\n📝 **Примечание:** MacsyZones запоминает **предпочитаемый макет** для каждой пары «экран + рабочий стол». Выберите нужный макет, находясь на этом экране и рабочем столе."
+          }
+        }
+      }
+    },
+    "Cycle Backward": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Предыдущее окно"
+          }
+        }
+      }
+    },
+    "Cycle Forward": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Следующее окно"
+          }
+        }
+      }
+    },
+    "Delay: %@s": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Задержка: %@ с"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        }
+      }
+    },
+    "Download Latest Version": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скачать последнюю версию"
+          }
+        }
+      }
+    },
+    "Downloading...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка…"
+          }
+        }
+      }
+    },
+    "Duplicate": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дублировать"
+          }
+        }
+      }
+    },
+    "Edit Grid: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить сетку: %@"
+          }
+        }
+      }
+    },
+    "Enable MacsyZones": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включите MacsyZones"
+          }
+        }
+      }
+    },
+    "Enter Layout Name": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введите название макета"
+          }
+        }
+      }
+    },
+    "Enter License Key": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лицензионный ключ"
+          }
+        }
+      }
+    },
+    "Enter your License Key": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введите лицензионный ключ"
+          }
+        }
+      }
+    },
+    "Fallback previous size when unsnapped": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Возвращать прежний размер при откреплении"
+          }
+        }
+      }
+    },
+    "Flat": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Плоский"
+          }
+        }
+      }
+    },
+    "Full Screen": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Во весь экран"
+          }
+        }
+      }
+    },
+    "Get Started": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начать"
+          }
+        }
+      }
+    },
+    "Getting started to MacsyZones": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Знакомство с MacsyZones"
+          }
+        }
+      }
+    },
+    "Go to Privacy & Security → Accessibility": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перейдите в «Конфиденциальность и безопасность» → «Универсальный доступ»"
+          }
+        }
+      }
+    },
+    "Got It": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Понятно"
+          }
+        }
+      }
+    },
+    "Grid": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сетка"
+          }
+        }
+      }
+    },
+    "Grid: %lld x %lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сетка: %lld × %lld"
+          }
+        }
+      }
+    },
+    "Help": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Справка"
+          }
+        }
+      }
+    },
+    "High": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Высокая"
+          }
+        }
+      }
+    },
+    "Invalid License Key. Please try again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неверный лицензионный ключ. Попробуйте ещё раз."
+          }
+        }
+      }
+    },
+    "Layout Design": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дизайн макета"
+          }
+        }
+      }
+    },
+    "Layout Name:": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название макета:"
+          }
+        }
+      }
+    },
+    "Layout Switcher & Snap w/ Ease": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключатель макетов и лёгкая привязка"
+          }
+        }
+      }
+    },
+    "Layout Type": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тип макета"
+          }
+        }
+      }
+    },
+    "Layouts": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Макеты"
+          }
+        }
+      }
+    },
+    "Left Half": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Левая половина"
+          }
+        }
+      }
+    },
+    "Left Third": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Левая треть"
+          }
+        }
+      }
+    },
+    "Let's learn how to use MacsyZones": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Давайте разберёмся, как пользоваться MacsyZones"
+          }
+        }
+      }
+    },
+    "Listening for shortcut...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ожидание сочетания клавиш…"
+          }
+        }
+      }
+    },
+    "Low": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Низкая"
+          }
+        }
+      }
+    },
+    "MacsyZones is already running": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MacsyZones уже запущен"
+          }
+        }
+      }
+    },
+    "MacsyZones is loading...": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MacsyZones загружается…"
+          }
+        }
+      }
+    },
+    "MacsyZones is open source and free for you if you aren't comfortable with buying it. You can buy MacsyZones Pro and use without this reminder.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MacsyZones — открытое и бесплатное приложение, если покупка вам не по душе. Купив MacsyZones Pro, вы избавитесь от этого напоминания."
+          }
+        }
+      }
+    },
+    "MacsyZones needs accessibility permissions to work. Please follow these steps:": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Для работы MacsyZones нужно разрешение Универсального доступа. Выполните следующие шаги:"
+          }
+        }
+      }
+    },
+    "Medium": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Средняя"
+          }
+        }
+      }
+    },
+    "Modifier Key": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиша-модификатор"
+          }
+        }
+      }
+    },
+    "My Layout": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мой макет"
+          }
+        }
+      }
+    },
+    "New Zone": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новая зона"
+          }
+        }
+      }
+    },
+    "Next": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Далее"
+          }
+        }
+      }
+    },
+    "No layouts": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет макетов"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет"
+          }
+        }
+      }
+    },
+    "Nothing to snap": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нечего привязывать"
+          }
+        }
+      }
+    },
+    "Omg!": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ой!"
+          }
+        }
+      }
+    },
+    "Omg! 😊": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ой! 😊"
+          }
+        }
+      }
+    },
+    "Only with user event": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Только по действию пользователя"
+          }
+        }
+      }
+    },
+    "Open System Settings": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте Системные настройки"
+          }
+        }
+      }
+    },
+    "Per-desktop layouts": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Макеты для каждого рабочего стола"
+          }
+        }
+      }
+    },
+    "Please buy MacsyZones to support me. 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Купите MacsyZones, чтобы поддержать меня. 🥳"
+          }
+        }
+      }
+    },
+    "Please download and install the latest version manually.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скачайте и установите последнюю версию вручную."
+          }
+        }
+      }
+    },
+    "Previous": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Назад"
+          }
+        }
+      }
+    },
+    "Prioritize zone center": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приоритет центру зоны"
+          }
+        }
+      }
+    },
+    "Quick Snap Shortcut": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сочетание быстрой привязки"
+          }
+        }
+      }
+    },
+    "Quick Snapper": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Быстрая привязка"
+          }
+        }
+      }
+    },
+    "Quick Snapper is a **lightweight window management** tool that lets you snap windows to predefined zones using keyboard shortcuts.\n\n**1.** Use the **Quick Snap Shortcut** (default: **Control+Shift+S**) to toggle Quick Snapper mode\n**2.** Use arrow keys ↑ / ↓ to navigate between zones and ← / → navigate between layouts\n**3.** Press the zone number (1-9) to snap selected window to the zone\n4. Press Delete to **unsnap** selected window\n5. Press Enter to get it done\n\n🚀 **Efficiency:** Quick Snapper is designed for users who prefer **keyboard-centric workflows**, enabling rapid window management without leaving the keyboard. You can use it as snapper, layout switcher and quick window switcher.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Быстрая привязка (Quick Snapper) — это **лёгкий инструмент управления окнами**, который позволяет привязывать окна к зонам с клавиатуры.\n\n**1.** Нажмите **сочетание быстрой привязки** (по умолчанию: **Control+Shift+S**), чтобы включить режим\n**2.** Стрелками ↑ / ↓ переходите между зонами, а ← / → — между макетами\n**3.** Нажмите номер зоны (1–9), чтобы привязать выбранное окно\n4. Нажмите Delete, чтобы **открепить** выбранное окно\n5. Нажмите Enter, чтобы завершить\n\n🚀 **Эффективность:** быстрая привязка создана для тех, кто предпочитает **работать с клавиатуры**, и позволяет управлять окнами, не отрывая от неё рук. Используйте её как привязку, переключатель макетов и быстрый переключатель окон."
+          }
+        }
+      }
+    },
+    "Quit": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выйти"
+          }
+        }
+      }
+    },
+    "Rename": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переименовать"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить"
+          }
+        }
+      }
+    },
+    "Reset to Defaults": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сброс настроек"
+          }
+        }
+      }
+    },
+    "Resize windows **precisely** using zone edges.\n\n**1.** Move your mouse pointer to somewhere center of two zones' edges meet or hold your **Modifier Key** (default: **Control**) for a moment\n**2.** Snap resizers appear between zones\n**3.** Drag a window edge close to a snap resizer\n**4.** The edge snaps to the resizer for **perfect alignment**\n\n✨ **Feature:** Enable **'Show snap resizers on hover'** in settings for instant visibility without holding the Modifier Key.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Меняйте размер окон **точно** по краям зон.\n\n**1.** Наведите указатель на стык краёв двух зон или ненадолго зажмите **клавишу-модификатор** (по умолчанию: **Control**)\n**2.** Между зонами появятся направляющие привязки\n**3.** Подтащите край окна к направляющей\n**4.** Край прилипнет к направляющей для **идеального выравнивания**\n\n✨ **Функция:** включите **«Показывать направляющие при наведении»** в настройках, чтобы видеть их сразу, без удержания клавиши-модификатора."
+          }
+        }
+      }
+    },
+    "Restart App": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перезапустить приложение"
+          }
+        }
+      }
+    },
+    "Right Half": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Правая половина"
+          }
+        }
+      }
+    },
+    "Right Third": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Правая треть"
+          }
+        }
+      }
+    },
+    "Rows: %lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Строк: %lld"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить"
+          }
+        }
+      }
+    },
+    "Select Layout": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбрать макет"
+          }
+        }
+      }
+    },
+    "Shake Power": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сила встряхивания"
+          }
+        }
+      }
+    },
+    "Shake to Snap": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Встряхните для привязки"
+          }
+        }
+      }
+    },
+    "Shake to snap": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Встряхнуть для привязки"
+          }
+        }
+      }
+    },
+    "Show snap resizers on hover": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показывать направляющие при наведении"
+          }
+        }
+      }
+    },
+    "Skip": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пропустить"
+          }
+        }
+      }
+    },
+    "Skip onboarding": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пропустить знакомство"
+          }
+        }
+      }
+    },
+    "Snap Key": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиша привязки"
+          }
+        }
+      }
+    },
+    "Snap Resize": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Привязка размера"
+          }
+        }
+      }
+    },
+    "Snap resize": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Привязка размера"
+          }
+        }
+      }
+    },
+    "Snap with right click": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Привязка правой кнопкой мыши"
+          }
+        }
+      }
+    },
+    "Snapping a Window": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Привязка окна"
+          }
+        }
+      }
+    },
+    "Snapping windows to zones is **quick and intuitive**.\n\n**1.** Hold your **Snap Key** (default: **Shift**) while dragging a window\n**2.** Your zones will appear on the screen\n**3.** Move your window over the desired zone\n**4.** Release to snap the window into place\n\n💡 **Tip:** You can also use **Snap with right click** (enabled default) to snap windows without holding the Snap Key.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Привязывать окна к зонам **быстро и интуитивно**.\n\n**1.** Удерживайте **клавишу привязки** (по умолчанию: **Shift**), перетаскивая окно\n**2.** На экране появятся зоны\n**3.** Наведите окно на нужную зону\n**4.** Отпустите, и окно встанет на место\n\n💡 **Совет:** можно использовать **привязку правой кнопкой мыши** (включена по умолчанию), чтобы привязывать окна без удержания клавиши привязки."
+          }
+        }
+      }
+    },
+    "Start at login": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Запускать при входе в систему"
+          }
+        }
+      }
+    },
+    "Step %lld of %lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Шаг %lld из %lld"
+          }
+        }
+      }
+    },
+    "Thank you for your support. 🥳": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спасибо за вашу поддержку. 🥳"
+          }
+        }
+      }
+    },
+    "Threshold: %lldpx": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Порог: %lld px"
+          }
+        }
+      }
+    },
+    "Tip: Design different layouts for each screen and workspace for your workflow.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Совет: создайте отдельные макеты для каждого экрана и рабочего стола под свои задачи."
+          }
+        }
+      }
+    },
+    "Top Half": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Верхняя половина"
+          }
+        }
+      }
+    },
+    "Top Left Quarter": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Левая верхняя четверть"
+          }
+        }
+      }
+    },
+    "Top Right Quarter": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Правая верхняя четверть"
+          }
+        }
+      }
+    },
+    "Top Third": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Верхняя треть"
+          }
+        }
+      }
+    },
+    "Unknown User": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неизвестный пользователь"
+          }
+        }
+      }
+    },
+    "Unlock": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разблокировать"
+          }
+        }
+      }
+    },
+    "Unlock Pro Version": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разблокировать Pro-версию"
+          }
+        }
+      }
+    },
+    "Update Failed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось обновить"
+          }
+        }
+      }
+    },
+    "Update to %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновить до %@"
+          }
+        }
+      }
+    },
+    "Very High": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очень высокая"
+          }
+        }
+      }
+    },
+    "Visit GitHub Repository": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть репозиторий на GitHub"
+          }
+        }
+      }
+    },
+    "Visit Website": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть сайт"
+          }
+        }
+      }
+    },
+    "Visit our website to get the latest version.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Последняя версия доступна на нашем сайте."
+          }
+        }
+      }
+    },
+    "Welcome to MacsyZones": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добро пожаловать в MacsyZones"
+          }
+        }
+      }
+    },
+    "Window Cycling": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключение окон"
+          }
+        }
+      }
+    },
+    "You can also visit the GitHub repository to contribute or report issues and find other ways to donate! 🤗": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Также можно зайти в репозиторий на GitHub, чтобы помочь проекту, сообщить об ошибке или найти другие способы поддержки! 🤗"
+          }
+        }
+      }
+    },
+    "You can buy MacsyZones to support me! 😇": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы можете купить MacsyZones, чтобы поддержать меня! 😇"
+          }
+        }
+      }
+    },
+    "You can continue using the current version of MacsyZones.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы можете продолжать пользоваться текущей версией MacsyZones."
+          }
+        }
+      }
+    },
+    "You can select your preferred layouts for each screen and workspace.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Для каждого экрана и рабочего стола можно выбрать свой макет."
+          }
+        }
+      }
+    },
+    "You must buy MacsyZones Pro to unlock this feature.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Эта функция доступна только в MacsyZones Pro."
+          }
+        }
+      }
+    },
+    "Zone Highlighting Strategy": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Способ подсветки зон"
+          }
+        }
+      }
+    },
+    "Zone layouts only": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Только макеты с зонами"
+          }
+        }
+      }
+    },
+    "Zones": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Зоны"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

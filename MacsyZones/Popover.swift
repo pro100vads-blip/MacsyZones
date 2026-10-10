@@ -35,7 +35,7 @@ struct ShortcutInputView: View {
                 toggleListening()
             }) {
                 VStack {
-                    Text(isListening ? "Listening for shortcut..." : shortcut.isEmpty ? "Click to set shortcut" : presentingShortcut(shortcut))
+                    Text(isListening ? String(localized: "Listening for shortcut...") : shortcut.isEmpty ? String(localized: "Click to set shortcut") : presentingShortcut(shortcut))
                         .padding()
                         .frame(maxWidth: .infinity)
                         .cornerRadius(7)
@@ -213,7 +213,7 @@ struct Main: View {
     func sensitivityLabel(for threshold: CGFloat) -> String {
         let minSensitivity: CGFloat = 10000
         let maxSensitivty: CGFloat = 100000
-        let levels = ["Very High", "High", "Medium", "Low"]
+        let levels = [String(localized: "Very High"), String(localized: "High"), String(localized: "Medium"), String(localized: "Low")]
         
         let relative = threshold - minSensitivity
         let level = Int((relative / CGFloat(maxSensitivty - minSensitivity)) * CGFloat(levels.count))
@@ -891,7 +891,7 @@ struct Main: View {
                     dismissButton: .default(Text("OK"))
                 )
             } else {
-                let licenseInfo = proLock.isPro ? "\nLicensed for: \(proLock.owner ?? "Unknown User")" : "(Free version)"
+                let licenseInfo = proLock.isPro ? String(localized: "\nLicensed for: \(proLock.owner ?? String(localized: "Unknown User"))") : String(localized: "(Free version)")
                 
                 return Alert(
                     title: Text("About MacsyZones"),
@@ -902,7 +902,7 @@ struct Main: View {
                         
                         Version: \(appVersion) (Build: \(appBuild))
                     
-                        \(!proLock.isPro ? "Please buy MacsyZones to support me. 🥳": "Thank you for your support. 🥳")
+                        \(!proLock.isPro ? String(localized: "Please buy MacsyZones to support me. 🥳") : String(localized: "Thank you for your support. 🥳"))
                         \(licenseInfo)
                     """),
                     primaryButton: .default(Text("Visit Website")) {
@@ -921,7 +921,7 @@ struct NewView: View {
     @Binding var page: String
     @ObservedObject var layouts = userLayouts
 
-    @State var layoutName: String = "My Layout"
+    @State var layoutName: String = String(localized: "My Layout")
     @State var layoutType: LayoutType = .zone
     @State var gridRows: Int = 3
     @State var gridColumns: Int = 3
@@ -1138,7 +1138,7 @@ struct UnlockProView: View {
                             unlockProVersion(with: licenseKey)
                             page = "main"
                         } else {
-                            errorMessage = "Invalid License Key. Please try again."
+                            errorMessage = String(localized: "Invalid License Key. Please try again.")
                         }
                     }) {
                         Image(systemName: "checkmark").foregroundColor(.green)
